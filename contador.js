@@ -12,3 +12,9 @@ function increment() {
     count++;
     displayCounter();
 }
+
+
+function decrement() {
+    count--;
+    displayCounter();
+}
