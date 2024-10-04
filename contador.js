@@ -29,3 +29,11 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
+
+function showOptions() {
+    console.log("\nOpciones:");
+    console.log("1. Incrementar");
+    console.log("2. Decrementar");
+    console.log("3. Reiniciar");
+    console.log("4. Salir");
+}
