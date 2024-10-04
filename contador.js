@@ -18,3 +18,8 @@ function decrement() {
     count--;
     displayCounter();
 }
+
+function reset() {
+    count = 0;
+    displayCounter();
+}
