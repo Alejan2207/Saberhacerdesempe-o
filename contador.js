@@ -37,3 +37,10 @@ function showOptions() {
     console.log("3. Reiniciar");
     console.log("4. Salir");
 }
+
+
+function main() {
+    displayCounter();
+    showOptions();
+    promptUser();
+}
